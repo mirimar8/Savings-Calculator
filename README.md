@@ -1,11 +1,11 @@
-# Savings Calculator
+#Savings Calculator
 
-## Description
+##Description
 An interactive calculator tool that website visitors can use
 to see how much savings Clearbridge can offer them 
 by using Clearbridge to manage their IT and help with their business optimization.
 
-## Technologies Used
+##Technologies Used
 * HTML5
 * CSS3
 * JavaScript
