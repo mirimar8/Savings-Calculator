@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Bold.eot');
+    src: url('Comfortaa-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Comfortaa-Bold.woff2') format('woff2'),
+        url('Comfortaa-Bold.woff') format('woff'),
+        url('Comfortaa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Regular.eot');
+    src: url('Comfortaa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Comfortaa-Regular.woff2') format('woff2'),
+        url('Comfortaa-Regular.woff') format('woff'),
+        url('Comfortaa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Light.eot');
+    src: url('Comfortaa-Light.eot?#iefix') format('embedded-opentype'),
+        url('Comfortaa-Light.woff2') format('woff2'),
+        url('Comfortaa-Light.woff') format('woff'),
+        url('Comfortaa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-SemiBold.eot');
+    src: url('Comfortaa-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Comfortaa-SemiBold.woff2') format('woff2'),
+        url('Comfortaa-SemiBold.woff') format('woff'),
+        url('Comfortaa-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Medium.eot');
+    src: url('Comfortaa-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Comfortaa-Medium.woff2') format('woff2'),
+        url('Comfortaa-Medium.woff') format('woff'),
+        url('Comfortaa-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

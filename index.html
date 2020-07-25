@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />    
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Savings Calculator</h1>
+        <p>Put in your expenses and see how much you can save by using Clearbridge</p>
+    </header>
+    <section class="content">
+        <div class="sliders-container">
+            <div class="slider-input">
+                <div class="slider-content">
+                        <h3><i class="fab fa-windows fa-fw"></i>&nbsp; Software Licences</h3>  
+                    <p class="description">Office 365, Photoshop, etc...</p>
+                    <input type="range" min="0" max="200000" step="1000" value="0" class="slider" id="software-licence-value">
+                 </div>
+                <label class="output-container">$<span class="output" id="software-output">0</span></label>
+            </div>
+            <div class="slider-input">
+                <div class="slider-content">
+                    <h3><i class="fas fa-laptop fa-fw"></i>&nbsp; Fixed Assets / Hardware</h3>
+                    <p class="description">Desktop computers, laptops, mobiles, printers, etc...</p>
+                    <input type="range" min="10000" max="500000" step="10000" value="10000" class="slider" id="fixed-assets-value">
+                </div>    
+                <label class="output-container">$<span class="output" id="assets-output">10000</span></label> 
+            </div>
+            <div class="slider-input">
+                <div class="slider-content">
+                    <h3><i class="fas fa-marker fa-fw"></i>&nbsp; Monthly Office Supplies</h3>
+                    <p class="description">Ink/toner, cables, etc…</p>
+                    <input type="range" min="0" max="100000" step="1000" value="0" class="slider" id="office-supplies-value">
+                </div>
+            <label class="output-container">$<span class="output" id="office-supplies-output">0</span></label>
+            </div>    
+            <div class="slider-input">
+                <div class="slider-content">
+                    <h3><i class="fas fa-file-invoice-dollar fa-fw"></i>&nbsp; Monthly Bills</h3> 
+                    <p class="description">Internet, web hosting, etc…</p> 
+                    <input type="range" min="100" max="100000" step="100" value="0" class="slider" id="bills-value">   
+                </div>
+                <label class="output-container">$<span class="output" id="bills-output">100</span></label>   
+            </div>
+            <div class="slider-input">
+                <div class="slider-content">
+                    <h3><i class="fas fa-users fa-fw"></i>&nbsp; Number of staff</h3> 
+                    <input type="range" min="5" max="1000" step="5" value="5" class="slider" id="staff-value">       
+                </div>    
+                <label class="output-container"><span class="output" id="staff-output">5</span></label>
+            </div>
+            <div class="slider-input">
+                <div class="slider-content">
+                    <h3><i class="fas fa-building fa-fw"></i>&nbsp; Number of sites</h3>
+                    <input type="range" min="1" max="10" step="1" value="1" class="slider" id="sites-value">    
+                </div>    
+                <label class="output-container"><span class="output" id="sites-output">1</span></label>
+            </div>
+        </div>          
+        <div class="results-container">
+            <h2>See Your Savings with Clearbridge</h2>
+            <div class="savings-container">
+                <div class="savings-txt">Your Expenses<p class="savings-num">$<span id="calc-result-spent">0</span></p></div>
+                <div class="savings-txt">Your Savings Rate<p class="savings-num">%<span id="calc-result-per">0</span></p></div>
+            </div>
+            <div class="total-container">
+                <div class="savings-txt total-saved">Total Saved<p class="savings-num total-num">$<span id="calc-result-cad">0</span></p></div>
+                <div class="savings-txt laptop-saved">That's<p class="savings-num laptop-num"><span id="calc-laptops">0</span></p> Brand New Laptops!!</div>
+            </div>
+        </div>
+    </section>
+
+    <script type= "text/javascript" src="script.js"></script>
+
+</body>
+</html>
