@@ -4,7 +4,7 @@
 An interactive calculator tool that website visitors can use
 to see how much savings Clearbridge can offer them 
 by using Clearbridge to manage their IT and help with their business optimization.
-Live page: https://app.clearone.ca/cb/miri/cost-calculator/index.html
+Live page: https://mirimar8.github.io/Savings-Calculator/
 
 ![](./Screenshot.png)
 
