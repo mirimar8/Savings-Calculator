@@ -135,7 +135,7 @@ i {
 }
 .slider:hover {
     opacity: 1; 
-  }
+}
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; 
     appearance: none;
@@ -144,14 +144,36 @@ i {
     border-radius: 50%; 
     background: #0095cd; 
     cursor: pointer; 
-  }
-  .slider::-moz-range-thumb {
+}
+.slider::-moz-range-thumb {
     width: 25px; 
     height: 25px; 
     border-radius: 50%; 
     background:  #0095cd;
     cursor: pointer; 
-  }
+}
 
-  
-
+@media (max-width: 1000px) {
+    .content {
+        flex-direction: column;
+    }
+    .sliders-container {
+        width: 100%;
+    }
+    .results-container {
+        width: 100%;
+        margin-top: 20px;
+        box-shadow: none;
+    }
+    header {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .total-saved {
+        font-size: 2rem;
+    }
+    .total-num {
+        font-size: 2.8rem;
+    }
+}
